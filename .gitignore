@@ -1,0 +1,4 @@
+data/rating.csv
+database/
+*.db
+__pycache__/
