@@ -1,5 +1,8 @@
 -- Question:
--- Which movies stand out when popularity, average rating, and rating reliability are considered together?
+-- How can rating quality and popularity be normalized into a combined movie score, 
+--and how sensitive are rankings to different weighting choices?
 
 -- Purpose:
--- To combine multiple movie-level metrics into a more balanced evaluation of movie performance.
+-- To combine audience approval and popularity into a normalized movie score, examine how different 
+--weighting choices affect movie rankings, and evaluate the sensitivity of the resulting recommendations 
+--to those methodological decisions.

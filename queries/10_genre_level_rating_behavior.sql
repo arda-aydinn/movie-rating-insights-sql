@@ -2,4 +2,5 @@
 -- Which genres receive the highest average ratings?
 
 -- Purpose:
--- To analyze perceived quality at the genre level by comparing average ratings across movie genres.
+-- To transform the multi-valued genre field into a usable movie–genre structure and analyze how audience rating 
+--behavior differs across genres in terms of rating volume, average score, and high-rating frequency.

@@ -1,5 +1,7 @@
 -- Question:
--- How does rating behavior differ across user activity segments?
+-- How do users in different activity segments differ in 
+--rating tendency, rating extremity, and content diversity?
 
 -- Purpose:
--- To compare average rating behavior across different user activity groups.
+-- To compare how users from different activity segments use the rating scale, 
+--examining not only their average ratings but also their tendencies to give low, high, and extreme scores.
