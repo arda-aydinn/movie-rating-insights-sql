@@ -90,7 +90,7 @@ WHERE cte.genre != ''
 GROUP BY 
     cte.genre
 ORDER BY 
-    avg_rating DESC,
+    AVG(rat.rating) DESC,
     total_ratings DESC
 ;
 

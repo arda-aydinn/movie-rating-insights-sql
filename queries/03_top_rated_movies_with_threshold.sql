@@ -1,46 +1,76 @@
---  Question:
---  Which movies have the highest average rating among movies with a substantial number of ratings?
+-- Question:
+-- Which movies have the highest average ratings among titles with sufficient
+-- rating support in the analyzed sample?
 
 -- Purpose:
--- To identify highly rated movies while reducing the effect of very small sample sizes.
+-- To identify strongly rated movies while reducing the influence of unstable
+-- averages based on very small rating samples.
 
--- Notes:
--- A data-driven minimum rating threshold is used to reduce the small sample problem and make average ratings more reliable.
+-- General Notes:
+-- A minimum threshold of 400 ratings is applied as a pragmatic support
+-- requirement. The threshold was informed by an exploratory calculation of
+-- rating activity among movies with at least 100 ratings.
 
+-- rating_count is used as an eligibility condition, while avg_rating is the
+-- movie-ranking metric. Rankings use unrounded averages; rounding is applied
+-- only in the final output.
 
----- Exploratory query for selecting the threshold:
----- Calculate the average rating count among movies with at least 100 ratings.
+ /*
+-- Exploratory query used to inform the minimum support threshold.
 
+WITH movieRatingCountsCTE AS (
+    SELECT
+        mov.movieId,
+        mov.title,
+        COUNT(rat.rating) AS rating_count
 
-WITH movie_rating_counts AS    
-    (SELECT 
-            mov.movieId, 
-            mov.title, 
-            COUNT(rat.rating) AS no_ratings
+    FROM movies AS mov
+    JOIN ratings AS rat
+        ON mov.movieId = rat.movieId
 
-        FROM movies AS mov
-        INNER JOIN ratings AS rat
-            ON mov.movieId = rat.movieId
+    GROUP BY
+        mov.movieId,
+        mov.title
 
-        GROUP BY mov.movieId, mov.title
-        HAVING COUNT(rat.rating) >= 100 
-        )
+    HAVING COUNT(rat.rating) >= 100
+)
 
-SELECT AVG(no_ratings) AS avg_rating_count
-FROM movie_rating_counts
+SELECT
+    AVG(rating_count) AS avg_rating_count
+FROM movieRatingCountsCTE
 ;
+*/
 
----- Final query
-SELECT 
-    mov.movieId, 
-    mov.title,
-    COUNT(rat.rating) AS no_ratings,
-    ROUND(AVG(rat.rating), 2) AS avg_rating
-FROM movies AS mov
-INNER JOIN ratings AS rat
-    ON mov.movieId = rat.movieId
-GROUP BY mov.movieId, mov.title
-HAVING COUNT(rat.rating) >= 400
-ORDER BY avg_rating DESC
+WITH movieMetricsCTE AS (
+    SELECT
+        mov.movieId,
+        mov.title,
+        COUNT(rat.rating) AS rating_count,
+        AVG(rat.rating) AS avg_rating
+
+    FROM movies AS mov
+    JOIN ratings AS rat
+        ON mov.movieId = rat.movieId
+
+    GROUP BY
+        mov.movieId,
+        mov.title
+
+    HAVING COUNT(rat.rating) >= 400
+)
+
+SELECT
+    movieId,
+    title,
+    rating_count,
+    ROUND(avg_rating, 4) AS avg_rating
+
+FROM movieMetricsCTE
+
+ORDER BY
+    avg_rating DESC,
+    rating_count DESC,
+    movieId ASC
+
 LIMIT 20
 ;

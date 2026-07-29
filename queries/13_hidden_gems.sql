@@ -36,6 +36,10 @@ WITH movieMetricsCTE AS (
 -- comparing several candidate thresholds. This retained 3,187 movies while
 -- excluding titles supported by very small rating samples.
 
+-- The 50-rating requirement is used only as a minimum support filter.
+-- Hidden-gem classification itself is based on percentile thresholds rather
+-- than fixed average-rating or visibility cutoffs.
+
 /*
 
 -- Validation query used to compare alternative minimum support thresholds.
@@ -85,7 +89,8 @@ eligibleMoviesCTE AS (
 
 -- Quality and visibility percentiles are calculated globally across all
 -- eligible movies rather than separately within genres. The results therefore
--- represent platform-wide relative positions.
+-- represent global relative positions across all eligible movies in the
+-- analyzed sample.
 
 moviePercentilesCTE AS (
     SELECT

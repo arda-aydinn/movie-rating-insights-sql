@@ -1,13 +1,22 @@
 -- Question:
--- How many movies, users, and ratings are available in the dataset?
+-- How many movies, active users, and rating records are available in the
+-- loaded analysis database?
 
 -- Purpose:
--- To understand the basic scale of the dataset by counting the number of movies, users, and ratings included in the sample.
+-- To establish the scale of the analysis sample and verify that the movie
+-- metadata and rating records were loaded successfully into SQLite.
 
--- Notes:
--- This query serves as a sanity check to confirm that the data was loaded correctly into the SQLite database.
+-- General Notes:
+-- total_movies counts all records in the movies table, including movies that
+-- may not have received a rating in the analyzed rating sample.
+
+-- total_users represents distinct users appearing in the loaded ratings table,
+-- rather than the full user population of the original MovieLens dataset.
+
+-- total_ratings reflects the rating sample loaded into the local database.
 
 SELECT
     (SELECT COUNT(*) FROM movies) AS total_movies,
     (SELECT COUNT(DISTINCT userId) FROM ratings) AS total_users,
-    (SELECT COUNT(*) FROM ratings) AS total_ratings;
+    (SELECT COUNT(*) FROM ratings) AS total_ratings
+;
