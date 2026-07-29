@@ -16,7 +16,7 @@ ratings_path = DATA_DIR / "rating.csv"
 # Use a sample first so the project starts fast and does not overload the computer
 RATING_SAMPLE_SIZE = 1_000_000
 
-print("Reading movies.csv...")
+print("Reading movie.csv...")
 movies = pd.read_csv(movies_path)
 
 print(f"Reading first {RATING_SAMPLE_SIZE:,} rows from rating.csv...")
