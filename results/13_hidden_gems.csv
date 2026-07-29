@@ -1,0 +1,114 @@
+movieId,title,genres,rating_count,avg_rating,quality_percent_rank,visibility_percent_rank,quality_visibility_gap
+8542,"Day at the Races, A (1937)",Comedy|Musical,51,4.1176,0.9648,0.0107,0.9542
+30803,3-Iron (Bin-jip) (2004),Drama|Romance,51,4.1078,0.9626,0.0107,0.952
+2937,"Palm Beach Story, The (1942)",Comedy,52,4.1442,0.9739,0.0229,0.951
+77658,Cosmos (1980),Documentary,55,4.3273,0.9984,0.0549,0.9435
+214,Before the Rain (Pred dozhdot) (1994),Drama|War,50,4.06,0.9435,0.0,0.9435
+907,"Gay Divorcee, The (1934)",Comedy|Musical|Romance,55,4.1364,0.9714,0.0549,0.9165
+27803,"Sea Inside, The (Mar adentro) (2004)",Drama,55,4.0909,0.9576,0.0549,0.9027
+3090,Matewan (1987),Drama,59,4.2627,0.9965,0.0948,0.9018
+5120,Sleuth (1972),Comedy|Mystery|Thriller,55,4.0818,0.9545,0.0549,0.8996
+7116,Diabolique (Les diaboliques) (1955),Horror|Mystery|Thriller,53,4.0377,0.9322,0.0326,0.8996
+665,Underground (1995),Comedy|Drama|War,56,4.0893,0.9564,0.0675,0.8889
+6301,Straw Dogs (1971),Drama|Thriller,50,3.95,0.8845,0.0,0.8845
+1236,Trust (1990),Comedy|Drama|Romance,50,3.95,0.8845,0.0,0.8845
+61236,Waltz with Bashir (Vals im Bashir) (2008),Animation|Documentary|Drama|War,54,4.0185,0.924,0.0452,0.8788
+58303,"Counterfeiters, The (Die Fälscher) (2007)",Crime|Drama|War,54,4.0093,0.9193,0.0452,0.8741
+7121,Adam's Rib (1949),Comedy|Romance,53,3.9811,0.9021,0.0326,0.8694
+3077,42 Up (1998),Documentary,60,4.1333,0.9705,0.1061,0.8644
+3091,Kagemusha (1980),Drama|War,55,4.0091,0.919,0.0549,0.8641
+37857,MirrorMask (2005),Adventure|Children|Drama|Fantasy,53,3.9528,0.8886,0.0326,0.8559
+2905,Sanjuro (Tsubaki Sanjûrô) (1962),Action|Adventure|Drama,54,3.9722,0.8989,0.0452,0.8537
+4970,"Blue Angel, The (Blaue Engel, Der) (1930)",Drama,58,4.0517,0.9385,0.0873,0.8512
+3347,Never Cry Wolf (1983),Adventure|Drama,55,3.9636,0.8945,0.0549,0.8396
+8337,"Caine Mutiny, The (1954)",Drama|War,52,3.9135,0.8591,0.0229,0.8362
+8154,"Dolce Vita, La (1960)",Drama,52,3.9135,0.8591,0.0229,0.8362
+6639,Wait Until Dark (1967),Drama|Thriller,56,3.9554,0.8905,0.0675,0.823
+1046,Beautiful Thing (1996),Drama|Romance,63,4.0794,0.9523,0.1309,0.8214
+2611,"Winslow Boy, The (1999)",Drama,56,3.9464,0.8798,0.0675,0.8123
+4546,"Vanishing, The (Spoorloos) (1988)",Drama|Thriller,59,3.9831,0.9036,0.0948,0.8089
+26131,"Battle of Algiers, The (La battaglia di Algeri) (1966)",Drama|War,58,3.9655,0.8961,0.0873,0.8089
+6724,Paper Moon (1973),Comedy|Crime|Drama,54,3.9074,0.854,0.0452,0.8089
+7013,"Night of the Hunter, The (1955)",Drama|Film-Noir|Thriller,63,4.0476,0.9366,0.1309,0.8057
+33154,Enron: The Smartest Guys in the Room (2005),Documentary,56,3.9375,0.8729,0.0675,0.8054
+2670,Run Silent Run Deep (1958),War,63,4.0317,0.9291,0.1309,0.7982
+1699,"Butcher Boy, The (1997)",Comedy|Drama,57,3.9386,0.8735,0.0785,0.795
+1161,"Tin Drum, The (Blechtrommel, Die) (1979)",Drama|War,67,4.0896,0.957,0.1626,0.7944
+2351,"Nights of Cabiria (Notti di Cabiria, Le) (1957)",Drama,66,4.0606,0.9438,0.1547,0.7891
+80906,Inside Job (2010),Documentary,63,4.0079,0.9184,0.1309,0.7875
+6286,"Man Without a Past, The (Mies vailla menneisyyttä) (2002)",Comedy|Crime|Drama,59,3.9492,0.8823,0.0948,0.7875
+946,To Be or Not to Be (1942),Comedy|Drama|War,70,4.1286,0.968,0.1808,0.7872
+60766,Man on Wire (2008),Documentary,65,4.0385,0.9325,0.1478,0.7847
+106100,Dallas Buyers Club (2013),Drama,58,3.931,0.8679,0.0873,0.7806
+6987,"Cabinet of Dr. Caligari, The (Cabinet des Dr. Caligari., Das) (1920)",Crime|Fantasy|Horror,72,4.1458,0.9755,0.1955,0.78
+6791,Babette's Feast (Babettes gæstebud) (1987),Drama,60,3.95,0.8845,0.1061,0.7784
+97913,Wreck-It Ralph (2012),Animation|Comedy,61,3.959,0.893,0.1161,0.7768
+2920,Children of Paradise (Les enfants du paradis) (1945),Drama|Romance,59,3.9322,0.8691,0.0948,0.7743
+3677,Baraka (1992),Documentary,72,4.1042,0.9614,0.1955,0.7659
+4047,Gettysburg (1993),Drama|War,62,3.9516,0.887,0.1227,0.7643
+2843,"Black Cat, White Cat (Crna macka, beli macor) (1998)",Comedy|Romance,67,4.0224,0.9262,0.1626,0.7637
+2935,"Lady Eve, The (1941)",Comedy|Romance,77,4.2597,0.9962,0.2338,0.7624
+5319,Nine Queens (Nueve reinas) (2000),Crime|Thriller,69,4.0435,0.9347,0.1748,0.7599
+2932,Days of Heaven (1978),Drama,67,4.0149,0.9218,0.1626,0.7593
+556,"War Room, The (1993)",Documentary,60,3.925,0.8647,0.1061,0.7586
+4211,Reversal of Fortune (1990),Drama,63,3.9524,0.8883,0.1309,0.7574
+4978,Lantana (2001),Drama|Mystery|Thriller,61,3.918,0.8619,0.1161,0.7458
+8014,"Spring, Summer, Fall, Winter... and Spring (Bom yeoreum gaeul gyeoul geurigo bom) (2003)",Drama,71,4.0423,0.9344,0.1899,0.7445
+2618,"Castle, The (1997)",Comedy,63,3.9365,0.8719,0.1309,0.7411
+1365,Ridicule (1996),Drama,64,3.9453,0.8785,0.1387,0.7398
+326,To Live (Huozhe) (1994),Drama,68,3.9853,0.9055,0.1692,0.7363
+1202,Withnail & I (1987),Comedy,68,3.9853,0.9055,0.1692,0.7363
+71899,Mary and Max (2009),Animation|Comedy|Drama,73,4.0411,0.9341,0.2034,0.7307
+7073,"Shot in the Dark, A (1964)",Comedy|Crime|Mystery,62,3.9032,0.8522,0.1227,0.7294
+1361,Paradise Lost: The Child Murders at Robin Hood Hills (1996),Documentary,83,4.2108,0.9903,0.2706,0.7197
+944,Lost Horizon (1937),Drama,66,3.9394,0.8738,0.1547,0.7191
+71033,"Secret in Their Eyes, The (El secreto de sus ojos) (2009)",Crime|Drama|Mystery|Romance|Thriller,65,3.9231,0.8628,0.1478,0.715
+3310,"Kid, The (1921)",Comedy|Drama,65,3.9154,0.8603,0.1478,0.7125
+34542,Grizzly Man (2005),Documentary,74,4.0135,0.9212,0.2122,0.709
+4902,"Devil's Backbone, The (Espinazo del diablo, El) (2001)",Drama|Fantasy|Horror|Thriller|War,65,3.9077,0.8544,0.1478,0.7065
+4424,"Garden of the Finzi-Continis, The (Giardino dei Finzi-Contini, Il) (1970)",Drama,65,3.9077,0.8544,0.1478,0.7065
+3801,Anatomy of a Murder (1959),Drama|Mystery,72,3.9653,0.8955,0.1955,0.6999
+4914,Breathless (À bout de souffle) (1960),Crime|Drama|Romance,79,4.0633,0.9451,0.2495,0.6955
+7669,Pride and Prejudice (1995),Drama|Romance,76,4.0132,0.9209,0.2272,0.6937
+2936,Sullivan's Travels (1941),Adventure|Comedy|Romance,78,4.0385,0.9325,0.2423,0.6902
+3200,"Last Detail, The (1973)",Comedy|Drama,67,3.903,0.8515,0.1626,0.689
+77455,Exit Through the Gift Shop (2010),Comedy|Documentary,78,4.0192,0.9253,0.2423,0.683
+5147,Wild Strawberries (Smultronstället) (1957),Drama,82,4.0671,0.9473,0.2649,0.6824
+3814,Love and Death (1975),Comedy,73,3.9452,0.8782,0.2034,0.6748
+6291,Lilya 4-Ever (Lilja 4-ever) (2002),Crime|Drama,74,3.9459,0.8792,0.2122,0.667
+4427,"Lion in Winter, The (1968)",Drama,92,4.1685,0.9812,0.3176,0.6635
+3742,Battleship Potemkin (1925),Drama|War,81,4.0185,0.924,0.2611,0.6629
+3819,Tampopo (1985),Comedy,95,4.2053,0.989,0.3311,0.6579
+3741,Badlands (1973),Crime|Drama|Thriller,93,4.1452,0.9746,0.322,0.6525
+54881,"King of Kong, The (2007)",Documentary,78,3.9615,0.8939,0.2423,0.6516
+109487,Interstellar (2014),Sci-Fi|IMAX,81,4.0,0.9124,0.2611,0.6513
+549,Thirty-Two Short Films About Glenn Gould (1993),Drama|Musical,83,4.006,0.9168,0.2706,0.6463
+5008,Witness for the Prosecution (1957),Drama|Mystery|Thriller,82,3.9878,0.9068,0.2649,0.6419
+3548,Auntie Mame (1958),Comedy|Drama,77,3.9416,0.8748,0.2338,0.6409
+936,Ninotchka (1939),Comedy|Romance,78,3.9487,0.8817,0.2423,0.6394
+3467,Hud (1963),Drama|Western,75,3.9133,0.8588,0.2197,0.639
+4967,No Man's Land (2001),Drama|War,97,4.1495,0.9768,0.3409,0.6359
+7132,"Night at the Opera, A (1935)",Comedy|Musical|Romance,84,4.0,0.9124,0.2768,0.6356
+55908,"Man from Earth, The (2007)",Drama|Sci-Fi,83,3.9759,0.9005,0.2706,0.6299
+1939,"Best Years of Our Lives, The (1946)",Drama|War,85,4.0,0.9124,0.2831,0.6293
+334,Vanya on 42nd Street (1994),Drama,80,3.95,0.8845,0.2558,0.6287
+3811,Breaker Morant (1980),Drama|War,86,4.0,0.9124,0.2869,0.6255
+3469,Inherit the Wind (1960),Drama,89,4.0169,0.9228,0.3007,0.6221
+1649,"Fast, Cheap & Out of Control (1997)",Documentary,78,3.9231,0.8628,0.2423,0.6205
+1216,"Big Blue, The (Grand bleu, Le) (1988)",Adventure|Drama|Romance,85,3.9824,0.9027,0.2831,0.6196
+6380,Capturing the Friedmans (2003),Documentary,91,4.033,0.9297,0.3136,0.6161
+3097,"Shop Around the Corner, The (1940)",Comedy|Drama|Romance,91,4.0275,0.9278,0.3136,0.6142
+8207,"Day of the Jackal, The (1973)",Crime|Thriller,82,3.9451,0.8779,0.2649,0.613
+3134,Grand Illusion (La grande illusion) (1937),Drama|War,85,3.9647,0.8952,0.2831,0.6121
+213,Burnt by the Sun (Utomlyonnye solntsem) (1994),Drama,89,4.0,0.9124,0.3007,0.6117
+947,My Man Godfrey (1936),Comedy|Romance,95,4.0579,0.9416,0.3311,0.6105
+97,"Hate (Haine, La) (1995)",Crime|Drama,91,4.0,0.9124,0.3136,0.5989
+7981,Infernal Affairs (Mou gaan dou) (2002),Crime|Drama|Thriller,90,3.9778,0.9014,0.3076,0.5938
+97921,Silver Linings Playbook (2012),Comedy|Drama,89,3.9607,0.8936,0.3007,0.5929
+89864,50/50 (2011),Comedy|Drama,82,3.9085,0.8556,0.2649,0.5907
+2924,Drunken Master (Jui kuen) (1978),Action|Comedy,87,3.9483,0.8807,0.2928,0.5879
+2726,"Killing, The (1956)",Crime|Film-Noir,98,4.0306,0.9284,0.3456,0.5829
+2732,Jules and Jim (Jules et Jim) (1961),Drama|Romance,98,4.0204,0.9256,0.3456,0.58
+59387,"Fall, The (2006)",Adventure|Drama|Fantasy,97,3.9948,0.9102,0.3409,0.5694
+1150,"Return of Martin Guerre, The (Retour de Martin Guerre, Le) (1982)",Drama,98,3.9898,0.9077,0.3456,0.5621
+2644,Dracula (1931),Horror,89,3.9157,0.8606,0.3007,0.5599

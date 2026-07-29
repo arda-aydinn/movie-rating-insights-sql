@@ -1,0 +1,4 @@
+activity_segment,total_users,user_share_pct,total_ratings_generated,rating_share_pct,avg_ratings_per_user
+Low Activity,2586,38.35,81566,8.16,31.54
+Medium Activity,2362,35.03,209916,20.99,88.87
+High Activity,1795,26.62,708518,70.85,394.72

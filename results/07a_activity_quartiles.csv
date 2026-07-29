@@ -1,0 +1,5 @@
+activity_quartile,total_users,user_share_pct,min_ratings_per_user,max_ratings_per_user,avg_ratings_per_user,total_ratings_generated,rating_share_pct
+1,1686,25.0,20,35,25.9,43673,4.37
+2,1686,25.0,35,70,50.21,84661,8.47
+3,1686,25.0,70,163,107.01,180426,18.04
+4,1685,24.99,163,2711,410.23,691240,69.12

@@ -1,0 +1,4 @@
+rating_behavior,total_users,user_share_pct,total_ratings_generated,rating_share_pct,avg_user_rating,avg_absolute_deviation
+Generous,1526,36.71,250610,27.29,4.04,0.51
+Neutral,1820,43.78,425793,46.36,3.55,0.12
+Strict,811,19.51,242031,26.35,2.98,0.54
